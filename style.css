@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+   color: #FEFEFF;
+
+
+}
+*.fa:hover{
+    color: #FEFEFF;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    background-color:rgb(40, 40,52);
+    margin: 0px auto;
+
+
+}
+.fa-face-laugh{
+    color: rgb(247,186,42);
+    font-size: 15px;
+}
+.navbar .box-1 .humburgar{
+    display: none;
+}
+.navbar{
+    width: auto;
+    height: auto;
+    background-color:rgb(54, 53,67);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 50px 0px 50px;
+}
+.box-2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-2 ul li{
+    padding:10px;
+    list-style: none;
+}
+.box-2 ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.box-2 ul li a:hover{
+    color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    transition: 0.2s;
+    background-color: #FEFEFF;
+}
+
+.box-3 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-3 ul li{
+    padding:10px;
+    list-style: none;
+}
+
+.box-3 ul li a{
+    text-decoration: none;
+    font-size: 1.1rm;
+    font-weight: 500;
+}
+
+.box-3 ul li .web{
+    width: 20px;
+    height: 20px;
+    background-color: #FEFEFF;
+    border-radius: 50%;
+}
+
+.box-3 ul li .in{
+    font-size: 1.2rem;
+    color: #FEFEFF;
+ 
+}
+/* section code */
+
+.main{
+    width: auto;
+    height: 400px;
+    background-color: rgb(54, 53, 67);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap; 
+    padding: 0% 50px ;
+    margin: 0% auto;
+}
+.boxes-1{
+    width: auto;
+    height: auto;
+    margin-top: -29px;
+}
+
+.boxes-1 .h3 p{
+font-size: 40px;
+}
+.boxes-1 .h1 h1{
+    font-size: 50px;
+   
+    
+
+}
+.boxes-1 .rular{
+    height: 6px;
+    width: 100px;
+    background-color: rgb(238, 188, 88);
+    color:black ;
+    border: none;
+}
+.boxes-2{
+    width: auto;
+    height: auto;
+
+} 
+.circle{
+    width: 320px;
+    height: 320px;
+    background-color: rgb(42, 40, 54);
+    border-radius: 50%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;     
+
+}
+.circle img{
+    width: 450px;
+    height: 430px;
+  
+
+} 
+.boxes-3{
+    width: auto;
+    height: auto;
+    position: sticky;
+ 
+}
+.icans{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icans .div-s{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color:rgb(72, 72, 86);
+
+}
+
+.icans .fa{
+    color: rgb(238, 188, 88);
+    font-size: 1.2rem;
+    padding-top: 6px;
+}
+.icans .fa:hover{
+    color: #FEFEFF;
+    font-size: 1.2rem;
+    padding-top: 6px;
+}
+
+.boxes-3 .show-more p{
+    font-size: 1.1rem;
+    color: rgb(238, 188, 88);
+}
+/* socail code */
+
+
+.socail{
+    margin: 0% 50px;
+    margin-top: -40px;
+    background-color: rgb(65, 63, 79);
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+     position: sticky; 
+    flex-wrap: wrap; 
+}
+.m-div{
+    width: 100px;
+    height: 50px;
+    background-image: url(pics/meta-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(55, 52, 69); 
+    color: aliceblue;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 13px;
+    padding-left: 20px;
+    
+}
+
+.g-div{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(55, 52, 69); 
+    margin: 20px 0;
+    
+}
+.g-div img{
+    width: 90px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.l-div{
+    width: 100px;
+    height: 50px;
+    background-image: url(pics/linked-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(55, 52, 69); 
+    color: aliceblue;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 13px;
+    padding-right: 26px;
+    
+}
+
+.s-div{
+    width: 100px;
+    height: 50px;
+    background-image: url(pics/slack-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(55, 52, 69); 
+    color: aliceblue;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 2.0rem;
+    padding-top: 3px;
+    padding-left: 28px;
+}
+.footer{
+    margin: 0% auto;
+    padding: 60px 50px 0% 50px ;
+}
+
+
+/* desingner section */
+
+.desing{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.des-1{
+    width: auto;
+    height: auto;
+    margin-top: -90px;
+}
+
+.space-color h5{
+    color: rgb(228,180,85);
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-top: 10px;
+ 
+
+}
+.space-color .p-1{
+    padding-left: 25px;
+}
+
+.space-color .h5-1{
+    padding-left: 25px;
+}
+
+.desin-2{
+    width: auto;
+    height: auto;
+}
+/* 
+.font{
+    padding-left: -30px;
+} */
+.desin-2 .uiux{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.desin-2 .uiux img{
+    width: 100px;
+    height: 100px;
+}
+
+.desin-2 .front{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: -20px;
+}
+.desin-2 .front img{
+    width: 100px;
+    height: 100px;
+}
+
+.desin-2 .mobil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.desin-2 .mobil img{
+    width: 100px;
+    height: 100px;
+}
+
+.fa-arrow-right{
+
+    color: rgb(238, 188, 88);
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+/* services section */
+.services{
+    padding-top: 30px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services .sub_section{
+    border-style: 1px solid;
+    width: auto;
+    height: auto;
+    background-color: rgb(64, 63, 81);
+    padding: 15px;
+}
+.services .sub_section i{
+    font-size: 20px;
+    color: rgb(238, 188, 88);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(55, 52, 69); 
+    text-align: center;
+    margin: 7px 0;
+    padding: 10px;
+}
+
+.services .sub_section i:hover{
+    color: #FEFEFF;
+}
+/* extra space */
+
+.extra{
+    width: auto;
+    height: 50px;
+    background-color: rgb(54, 53, 67);
+
+}
+
+/* try to use media quary by help of inter net*/
+
+
+@media only screen and (max-width: 903px){
+
+
+    .navbar{
+        display:block;
+        padding: 0% 20px;
+    }
+    .navbar .box-2 ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+    }
+    .checkBox{
+        display: none;
+    }
+    .navbar .box-1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0%;
+    }
+
+     
+    .navbar .box-3 ul li .fa-bars{
+        display: none;
+    }
+    .navbar .box-1 .humburgar{
+        display: block;
+    } 
+
+    .main{
+        width: auto;
+        height: 800px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 30px 20px 0% 20px;
+        margin: 0% auto; 
+        
+    }
+    .boxes-1{
+        order: 0;
+        padding-left: 40px;
+    }
+    .boxes-2{
+        order: 2;
+        padding-left: 40px;
+    }
+    .boxes-3{
+        order: 1;
+        padding-left: 40px;
+    }
+
+    .socail{
+        margin: 0% 40px;
+        margin-top: -40px;
+    }
+    
+    .desing .des-1{
+        padding: 50px 20px 0% 20px;
+    }
+    .desing .desin-2{
+        padding: 50px 20px 0% 20px;
+    }
+    .services .sub_section{
+        margin: 20px 20px;
+    }
+   
+   }
+
+
+
+
+  /* #check:checked~.dafa{
+    display: block;
+}      */
